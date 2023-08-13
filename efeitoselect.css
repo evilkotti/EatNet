@@ -1,0 +1,116 @@
+
+#top{
+    background-color:black;
+    width: 100%;
+    height: 110px;
+    display: inline-block;
+}
+.container{
+    background-color: black;
+   opacity: 0.6;
+   color: white;
+   height: 500px;
+   width: 1200px;
+   margin-left: 80px;
+
+   }
+  .container:hover{
+    background-color:white;
+    color: black;
+    opacity: 1.0;
+  }
+  .container1{
+    background-color: black;
+   opacity: 0.6;
+   color: white;
+   height: 500px;
+   width: 1200px;
+   margin-left: 80px;
+
+   }
+  .container1:hover{
+    background-color:white;
+    color: black;
+    opacity: 1.0;
+  }
+  .container2{
+    background-color: black;
+   opacity: 0.6;
+   color: white;
+   height: 500px;
+   width: 1200px;
+   margin-left: 80px;
+   margin-bottom: 100px;
+
+   }
+  .container2:hover{
+    background-color:white;
+    color: black;
+    opacity: 1.0;
+  }
+  .container3{
+      background-color: black;
+   opacity: 0.6;
+   color: white;
+   height: 500px;
+   width: 1200px;
+
+
+       }
+      .container3:hover{
+        background-color:white;
+        color: black;
+        opacity: 1.0;
+      }
+
+      .container4{
+        background-color: black;
+       opacity: 0.6;
+       color: white;
+       height: 500px;
+       width: 1200px;
+       margin-left: 80px;
+    
+       }
+      .container4:hover{
+        background-color:white;
+        color: black;
+        opacity: 1.0;
+      }
+
+      .container5{
+        background-color: black;
+       opacity: 0.6;
+       color: white;
+       height: 500px;
+       width: 1200px;
+       margin-left: 80px;
+    
+       }
+      .container5:hover{
+        background-color:white;
+        color: black;
+        opacity: 1.0;
+      }
+
+
+
+
+
+
+  h2{
+    font-size: 40px;
+    text-align: center;
+   }
+   h3{
+
+    display: inline;
+    float: right;
+    margin-right: 900px;
+    text-decoration: none;
+   }
+   h4{
+    display: inline;
+    padding: 10px; text-decoration: none;
+   }
+   

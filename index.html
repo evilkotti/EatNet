@@ -10,169 +10,29 @@
     <link rel="stylesheet" href="efeitoselect.css">
     <link rel=" stylesheet" href="loginpopup.css">
    
-   <style>
-    h2{
-        font-size: 40px;
-    
-        display: inline;
-        padding: 20px;
-        text-align: center;
-        display: inline;
-    }
-    a{
-        color: white;
-    }
-    p{
-        color: white;
 
-
-    }
-    button:hover{
-    background-color: yellow;
-}
-
-#top{
-    background-color:black;
-    width: 100%;
-    height: 110px;
-    display: inline-block;
-}
-.container{
-    background-color: black;
-   opacity: 0.6;
-   color: white;
-   height: 500px;
-   width: 1200px;
-   margin-left: 80px;
-
-   }
-  .container:hover{
-    background-color:white;
-    color: black;
-    opacity: 1.0;
-  }
-  .container1{
-    background-color: black;
-   opacity: 0.6;
-   color: white;
-   height: 500px;
-   width: 1200px;
-   margin-left: 80px;
-
-   }
-  .container1:hover{
-    background-color:white;
-    color: black;
-    opacity: 1.0;
-  }
-  .container2{
-    background-color: black;
-   opacity: 0.6;
-   color: white;
-   height: 500px;
-   width: 1200px;
-   margin-left: 80px;
-   margin-bottom: 100px;
-
-   }
-  .container2:hover{
-    background-color:white;
-    color: black;
-    opacity: 1.0;
-  }
-  .container3{
-      background-color: black;
-   opacity: 0.6;
-   color: white;
-   height: 500px;
-   width: 1200px;
-
-
-       }
-      .container3:hover{
-        background-color:white;
-        color: black;
-        opacity: 1.0;
-      }
-
-      .container4{
-        background-color: black;
-       opacity: 0.6;
-       color: white;
-       height: 500px;
-       width: 1200px;
-       margin-left: 80px;
-    
-       }
-      .container4:hover{
-        background-color:white;
-        color: black;
-        opacity: 1.0;
-      }
-
-      .container5{
-        background-color: black;
-       opacity: 0.6;
-       color: white;
-       height: 500px;
-       width: 1200px;
-       margin-left: 80px;
-    
-       }
-      .container5:hover{
-        background-color:white;
-        color: black;
-        opacity: 1.0;
-      }
-
-
-
-
-
-
-  h2{
-    font-size: 40px;
-    text-align: center;
-   }
-   h3{
-
-    display: inline;
-    float: right;
-    margin-right: 900px;
-    text-decoration: none;
-   }
-   h4{
-    display: inline;
-    padding: 10px; text-decoration: none;
-   }
-   
-    
-    
-   
-   
-   </style>
-   
-   
-   
     <title>EatNet</title>
   
   
+
+<body>
+
 <div id="top" style="display: inline-block;">
 <img src="img.jpeg/livro-de-receitas.png" width="100px" style="margin-left:20%;"> 
 <h1 style="color: white; display: inline-block; padding-left: 10px;">Eat<color style="color: red;">Net</color>.com</h1>
 
 </div>
-
-<div>
+<br><br>
+<div style="position: sticky; top: 10px; z-index: 99;">
    
-    <a href="MatchRec.html"><button>Match de Receita</button></a>
-    <a><button>Vêganos</button></a>
-    <a><button>Air Fryer</button></a>
-    <a><button>Receitas Especiais</button></a>
-    <a><button>Sobremesas</button></a>
+    <a href="MatchRec.html"><button class="menu">Match de Receita</button></a>
+    <a><button class="menu">Vêganos</button></a>
+    <a><button class="menu">Air Fryer</button></a>
+    <a><button class="menu">Receitas Especiais</button></a>
+    <a><button class="menu">Sobremesas</button></a>
  
    
-    <a href="cadastro.html"><button style="float: right; margin-right: 0px;">cadastre-se</button></a>
+    <a href="cadastro.html"><button style="float: right; margin-right: 0px;" class="menu">cadastre-se</button></a>
     
 
     
@@ -227,21 +87,22 @@ function closeModal() {
 </script>
 
 
-<br><br><br>
+<br><br>
 
-<body>
+
     <div style="color:white; margin-top: 0px; text-align: center; background-color: black; padding:20px">
         
         
         
-        
+        <!--
         <script>
-         //alert('para um melhor desempenho do site cadastre-se.')
-        var nome = prompt('qual seu nome?')
-        document.write(`obrigado por acessar nosso site <strong>${nome}</strong> oque iremos preparar hoje?`)
+    
+          var nome = prompt('qual seu nome?')
+          document.write(`obrigado por acessar nosso site <strong>${nome}</strong> oque iremos preparar hoje?`)
          
         </script>
-        </div>
+        </div> 
+        -->
 
 
        
@@ -253,41 +114,43 @@ function closeModal() {
  
  <a href="ReceiEco.html"><div class="container">
     
-    <a href="ReceiEco.html"><img src="img.jpeg/RecBaixRend.jpeg.jpg" style="display: inline; width: 400px;height: 300px; padding: 40px;"></a>
+    <a href="ReceiEco.html"><img src="#" style="display: inline; width: 400px;height: 50%; padding: 40px;"></a>
 
-    <h2 style="position: absolute; width: 700px;height: 500px;">Receitas econômicas</h2>
-    <h3 style="display: inline;position: absolute; width: 500px;height: 300px;">Receitinhas baratas que valem a pena fazer e experimentar!</h3>
+    <h2 >Receitas econômicas</h2>
+    <h3 >Receitinhas baratas que valem a pena fazer e experimentar!</h3>
  
- <a href="ReceiEco.html"><button style=" width: 700px;height: 90px; margin-left: 250px;">Reiceitas baixo custo </button></a>
+ <a href="ReceiEco.html"><button style=" width: 700px;height: 90px; margin-left: 67px;">Reiceitas baixo custo </button></a>
  
 </div>
-<br>  
+<br><br><br><br><br> <hr>
 <!-- mactch de receitas -->
 
 <a href="MatchRec.html"><div class="container1">
-    <a href="MatchRec.html"><img src="img.jpeg/geladeira.jpeg" style="width: 400px;height: 300px;padding: 40px;"></a>
+    <a href="MatchRec.html"><img src="img.jpeg/geladeira.jpeg" style="width: 400px;height: 300px; opacity: 0.6;"></a>
 
-<h2 style="position: absolute; width: 700px;height: 500px;">Descubra receitas com oque você tem na geladeira agora </h2>
-<h3 style="display: inline;position: absolute; width: 500px;height: 300px;">Diga oque tem na geladeira que nós preparamos as melhores receitas! </h3>
+<h2 >Descubra receitas com oque você tem na geladeira agora </h2>
+<h3 >Diga oque tem na geladeira que nós preparamos as melhores receitas! </h3>
 
   
-<a href="MatchRec.html"><button style=" width: 700px;height: 90px; margin-left: 250px;">Match de receitas </button></a>
+<a href="MatchRec.html"><button style=" width: 700px;height: 90px; margin-left: 67px;">Match de receitas </button></a>
 </div></a>
 
-<br>
+<br><br><br><br><br><br><br> <hr>
 <!--compartilhar receitas-->
 
 <div class="container2">
-       <a href="CompRecei.html"><img src="img.jpeg/CompRec.jpeg" style="width: 400px;height: 300px;padding: 40px;"></a>
+       <a href="CompRecei.html"><img src="img.jpeg/CompRec.jpeg" style="width: 400px;height: 300px;padding: 40px;opacity: 0.6;"></a>
 
-<h2 style="position: absolute; width: 700px;height: 500px;">Compartilhe sua receita </h2>
-<h3 style="display: inline;position: absolute; width: 500px;height: 300px;">Compartilhe aquela receita especial de familia, ou atá mesmo aquela dica de tempero! </h3>
+<h2>Compartilhe sua receita </h2>
+<h3>Compartilhe aquela receita especial de familia, ou atá mesmo aquela dica de tempero! </h3>
 
   
-<a href="CompRecei.html"><button style=" width: 700px;height: 90px; margin-left: 250px;">Compartilhe sua receita </button></a>
+<a href="CompRecei.html"><button style=" width: 700px;height: 90px; margin-left: 67px;">Compartilhe sua receita </button></a>
+
+<br><br> 
 
 
-<br><br><br>
+<br><br><br><br><br> 
 
 
 
